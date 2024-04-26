@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="SettlerFactionBase">
+    <defName>SettlerMinotaur</defName>
+    <label>minotaur settlers</label>
+    <leaderTitle>mayor</leaderTitle>
+    <factionNameMaker>NamerFactionSettler</factionNameMaker>
+    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They are more than capable of defending themselves with basic gunpowder weaponry whilst they go about their every day routine of herding cattle, drinking chemshine and hunting down bounties.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
+    <allowedCultures><li>VFES_Frontier</li></allowedCultures>
+    <colorSpectrum>
+      <li>(0.25, 0.14, 0.54)</li>
+      <li>(0.23, 0.18, 0.40)</li>
+    </colorSpectrum>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+    </requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Minotaur>0.6</Minotaur>
+        <Auroch MayRequire="Snowcraft.MinotaurXenotype.Extended">0.3</Auroch>
+        <FurskinMinotaur MayRequire="Snowcraft.MinotaurXenotype.Extended">0.1</FurskinMinotaur>
+      </xenotypeChances>
+    </xenotypeSet>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>25</configurationListOrderPriority>
+  </FactionDef>
+</Defs>

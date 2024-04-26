@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>
+      <li IfModActive="Ludeon.Rimworld.Royalty">Royalty\1.5</li>
+      <li IfModActive="Ludeon.Rimworld.Ideology">Ideology\1.5</li>
+      <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">VFE_Settlers\1.5</li>
+  </v1.5>
+</loadFolders>

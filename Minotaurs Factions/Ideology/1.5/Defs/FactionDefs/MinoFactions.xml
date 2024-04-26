@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef ParentName="OutlanderFactionBase">
+    <defName>MinotaurOutlanderNudist</defName>
+    <label>nudist minotaur union</label>
+    <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <factionIconPath>World/WorldObjects/Expanding/MinotaurTownNudist</factionIconPath>
+    <colorSpectrum>
+      <li>(0.35, 0.30, 0.60)</li>
+      <li>(0.45, 0.40, 0.90)</li>
+    </colorSpectrum>
+    <requiredMemes>
+      <li>Nudism</li>
+    </requiredMemes>
+      <disallowedMemes>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+      <li>Raider</li>
+      <li>Blindsight</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>10</configurationListOrderPriority>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Minotaur>1.2</Minotaur>
+        <Auroch MayRequire="Snowcraft.MinotaurXenotype.Extended">0.6</Auroch>
+        <FurskinMinotaur MayRequire="Snowcraft.MinotaurXenotype.Extended">0.2</FurskinMinotaur>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+    <FactionDef ParentName="TribeBase">
+    <defName>MinotaurTribeNudist</defName>
+    <label>nudist minotaur tribe</label>
+    <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <factionIconPath>World/WorldObjects/Expanding/MinotaurVillageNudist</factionIconPath>
+    <colorSpectrum>
+      <li>(0.85, 0.75, 0.37)</li>
+      <li>(0.94, 0.61, 0.06)</li>
+    </colorSpectrum>
+    <requiredMemes>
+      <li>Nudism</li>
+    </requiredMemes>
+      <disallowedMemes>
+      <li>Supremacist</li>
+      <li>PainIsVirtue</li>
+      <li>Raider</li>
+      <li>Blindsight</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>30</configurationListOrderPriority>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Minotaur>1.2</Minotaur>
+        <Auroch MayRequire="Snowcraft.MinotaurXenotype.Extended">0.6</Auroch>
+        <FurskinMinotaur MayRequire="Snowcraft.MinotaurXenotype.Extended">0.2</FurskinMinotaur>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+  <FactionDef ParentName="TribeSavageBase">
+    <defName>MinotaurTribeCannibal</defName>
+    <label>cannibal minotaur tribe</label>
+    <description>These minotaurs have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particularly vicious tribe believes eating the flesh of their enemies is a great honor.</description>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <colorSpectrum>
+      <li>(0.65, 0.28, 0)</li>
+      <li>(0.61, 0.45, 0.32)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/MinotaurVillageCannibal</factionIconPath>
+        <requiredMemes>
+      <li>Cannibal</li>
+    </requiredMemes>
+    <disallowedMemes>
+      <li>Nudism</li>
+      <li>Blindsight</li>
+      <li>AnimalPersonhood</li>
+    </disallowedMemes>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Minotaur>1.2</Minotaur>
+        <Auroch MayRequire="Snowcraft.MinotaurXenotype.Extended">0.6</Auroch>
+        <FurskinMinotaur MayRequire="Snowcraft.MinotaurXenotype.Extended">0.2</FurskinMinotaur>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+
+</Defs>

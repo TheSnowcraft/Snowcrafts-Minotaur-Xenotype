@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Minotaur Xenotype - Vanilla Expanded Textures</name>
+  <packageId>Snowcraft.MinotaurXenotype.VanillaExpandedTextures</packageId>
+  <author>Snowcraft</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  	<modDependencies>
+		<li>
+			<packageId>Snowcraft.MinotaurXenotype</packageId>
+			<displayName>Minotaur Xenotype</displayName>
+			<steamWorkshopUrl></steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+
+		<li>Snowcraft.MinotaurXenotype</li>
+	</loadAfter>
+  <description>Adds textures to support minotaur headgear from the Vanilla Expanded Series. Complete mod coverage not guaranteed.</description>
+</ModMetaData>

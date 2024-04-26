@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Minotaur Race: Factions</name>
+  <packageId>Snowcraft.MinotaurXenotype.Factions</packageId>
+  <author>Snowcraft</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+		<li>
+			<packageId>Snowcraft.MinotaurXenotype</packageId>
+			<displayName>Minotaur Race: Xenotype Edition</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=0000000000</steamWorkshopUrl>
+		</li>
+  </modDependencies>
+	<loadAfter>	
+		<li>Snowcraft.MinotaurXenotype</li>
+		<li>Snowcraft.MinotaurXenotype.Extended</li>
+	</loadAfter>
+  <description>Adds new minotaur-dominant factions to the world, supporting Aurochs and Wooly Minotaurs from Minotaur Xenotype Extended. Not required to patch minotaurs into existing factions.</description>
+</ModMetaData>

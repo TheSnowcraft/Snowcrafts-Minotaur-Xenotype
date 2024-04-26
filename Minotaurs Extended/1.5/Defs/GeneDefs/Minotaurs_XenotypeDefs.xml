@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<XenotypeDef>
+		<defName>Auroch</defName>
+		<label>auroch</label>
+		<!-- Desc -->
+		<description>The ancient soldier-caste of New Crete, Aurochs have since become a wide-spread phenomena on worlds with minotaur populations. Stronger, more aggressive, and more robust than their 'baseline' bovine counterparts they are feircely loyal and powerful friends, often forming the backbones of local militias. While often lacking in social graces and strong intellect, and renowned for their endless appetites, they make up for their shortcomings in strength, endurance, and hearts of gold.</description>
+		<descriptionShort>A stronger, more robust variant of minotaur, known for their aggression, social awkwardness, and loyalty to their friends. Their minds are less adept at intellectual and social tasks, but they make excellent warriors and soldiers.</descriptionShort>
+		<!-- Stats -->
+		<iconPath>UI/Icons/Xenotypes/Auroch</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<!-- Ability -->
+			<!-- Cosmetic -->
+			<li>Horns_Bovine</li>
+			<li>Head_Bovine</li>
+			<li>Ears_Bovine</li>
+			<li>Tail_Bovine</li>
+            <!-- Bodies -->
+            <li>Body_Standard</li>
+            <li>Body_Hulk</li>
+			<!-- Skins -->
+			<li>Skin_Earthy</li>
+			<li>Skin_Chocolate</li>
+			<li>Skin_Black</li>
+			<li>Skin_InkBlack</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SheerWhite</li>
+			<!-- Skills -->
+			<!-- Other -->
+			<li>Robust</li>
+			<li>Aggression_Aggressive</li>
+			<li>Pain_Reduced</li>
+			<li>MeleeDamage_Strong</li>
+			<li>KindInstinct</li>
+			<li>AptitudePoor_Social</li>
+			<li>AptitudePoor_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>FurskinMinotaur</defName>
+		<label>wooly minotaur</label>
+		<!-- Desc -->
+		<description>Where the short fur of baseline minotaurs fail them in the old, the thick wooly coats of the wooly minotaurs provides protection from the chill. Found mostly in colder regions, the thick furry coats of this minotaur variant often becomes problematic in warmer regions.</description>
+		<descriptionShort>A minotaur variant with thick wooly coats. Resistant to the cold, but vulnerable to warmer temperatures.</descriptionShort>
+		<!-- Stats -->
+		<iconPath>UI/Icons/Xenotypes/FurskinMinotaur</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<!-- Ability -->
+			<!-- Cosmetic -->
+			<li>Horns_Bovine</li>
+			<li>Head_Bovine</li>
+			<li>Ears_Bovine</li>
+			<li>Tail_Bovine</li>
+            <!-- Bodies -->
+            <li>Body_Standard</li>
+            <li>Body_Thin</li>
+            <li>Body_Hulk</li>
+			<!-- Skins -->
+			<li>Skin_Earthy</li>
+			<li>Skin_Chocolate</li>
+			<li>Skin_Black</li>
+			<li>Skin_InkBlack</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SheerWhite</li>
+			<!-- Skills -->
+			<!-- Other -->
+			<li>Furskin</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<!--<li>ClovenHooves</li> -->
+		</genes>
+	</XenotypeDef>
+</Defs>

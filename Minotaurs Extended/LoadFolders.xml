@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Patches\1.5\Royalty</li>
+    <li IfModActive="Ludeon.Rimworld.Ideology">Patches\1.5\Ideology</li>
+  </v1.5>
+</loadFolders>
