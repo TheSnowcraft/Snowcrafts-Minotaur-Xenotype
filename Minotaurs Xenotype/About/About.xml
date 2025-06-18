@@ -12,20 +12,13 @@
 			<displayName>RimWorld - Biotech</displayName>
 			<steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-			<downloadUrl>https://github.com/VanillaExpanded/VanillaExpandedFramework</downloadUrl>
-		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
-
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		
 		<li>Owlchemist.CherryPicker</li>
 	</loadAfter>
   <description>Minotaurs are an anthropomorphic bovid xenotype based on the ancient mythologies of ancient Earth, an ancient species of cattle who's descendents populate the Rim.

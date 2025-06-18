@@ -13,7 +13,7 @@
     <requiredMemes>
       <li>Nudism</li>
     </requiredMemes>
-      <disallowedMemes>
+      <disallowedMemes Inherit="False">
       <li>Supremacist</li>
       <li>PainIsVirtue</li>
       <li>Raider</li>

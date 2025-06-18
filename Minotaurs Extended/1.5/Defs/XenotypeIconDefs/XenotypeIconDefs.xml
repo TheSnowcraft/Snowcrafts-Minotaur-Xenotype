@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeIconDef> 
+    <defName>XenotypeAuroch</defName> 
+    <texPath>UI/Icons/Xenotypes/Auroch</texPath>
+  </XenotypeIconDef>
+  
+    <XenotypeIconDef> 
+    <defName>XenotypeFurskinMinotaur</defName> 
+    <texPath>UI/Icons/Xenotypes/FurskinMinotaur</texPath>
+  </XenotypeIconDef>
+  
+  <XenotypeIconDef> 
+    <defName>XenotypeMinotaurNoHorns</defName> 
+    <texPath>UI/Icons/Xenotypes/NoHornsMinotaur</texPath>
+  </XenotypeIconDef>
+
+</Defs>
