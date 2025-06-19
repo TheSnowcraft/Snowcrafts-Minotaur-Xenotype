@@ -203,7 +203,7 @@
     <defName>Skin_Black</defName>
     <label>black skin</label>
     <labelShortAdj>noir</labelShortAdj>
-    <description>Carriers of this gene produce a pigment that turns their skin black.</description>
+    <description>Carriers of this gene produce a pigment that turns their skin charcoal black.</description>
     <randomBrightnessFactor>0</randomBrightnessFactor>
     <skinColorOverride>(99, 70, 36)</skinColorOverride>
     <displayOrderInCategory>99</displayOrderInCategory>
